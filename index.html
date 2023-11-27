@@ -1,42 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charse="UTF-8" />
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>🎖️わーい ! Ayman was here🦔</title>
-
+		<title>My Portfolio</title>
 		<link rel="stylesheet" href="style.css" />
 		<link rel="stylesheet" href="mediaqueries.css" />
-		<link rel="stylesheet" href="" />
 	</head>
 	<body>
 		<nav id="desktop-nav">
 			<div class="logo">Ayman Abid</div>
 			<div>
 				<ul class="nav-links">
-					<li><a href="#about">About</a></li>
-					<li><a href="#photobook">Photobook</a></li>
-					<li><a href="#resume">Resume</a></li>
+					<li><a href="#about">About me ;D</a></li>
+					<li><a href="#experience">Experience</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</div>
 		</nav>
 		<nav id="hamburger-nav">
-            <div class="logo">Ayman Abid</div>
-            <div class="hamburger-menu"></div>
-			    <div class="hambuger-icon" onclick="toggleMenu()">
-			    	<span></span>
-			    	<span></span>
-			    	<span></span>
-		    	</div>
-			<div class="menu-links">
-				<li><a href="#about " onclick="toggleMenu()">About</a></li>
-				<li><a href="#photobook" onclick="toggleMenu()">Photobook</a></li>
-				<li><a href="#resume" onclick="toggleMenu()">Resume</a></li>
-				<li><a href="#contact" onclick="toggleMenu()">Contact</a ></li>
+			<div class="logo">Ayman Abid</div>
+			<div class="hamburger-menu">
+				<div class="hamburger-icon" onclick="toggleMenu()">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="menu-links">
+					<li><a href="#about" onclick="toggleMenu()">About</a></li>
+					<li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+					<li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+				</div>
 			</div>
-		</div>
-        </nav>
+		</nav>
+		<section id="profile">
+			<div class="container">
+				<img src="./assets/‍mijn-linkedin-foto.jpg" alt="profiel foto" />
+			</div>
+			<div class="section__text">
+				<p class="p1">hoi, k'ben</p>
+				<h1 class="title">Ayman</h1>
+				<p class="section__text__p2">Graphic designer and voice</p>
+				<div class="btn-container">
+					<button class="btn btn-color-2" onclick="window.open('./assets/ECHT-SERIEUSE-CV.png')">Download CV</button>
+					<button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+				</div>
+				<div id="socials-container">
+					<img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/ayman-abid-498152252/'" />
+					<img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/ahumblecat'" />
+				</div>
+			</div>
+		</section>
+		<section id="about">
+			<p class="p1">,</p>
+			<h1 class="title">About Me</h1>
+			<div class="section-container">
+				<div class="section__pic-container">
+					<img src="./assets/JESUS .png" alt="Profile picture" class="about-pic" />
+				</div>
+				<div class="about-details-container">
+					<div class="about-containers">
+						<div class="details-container">
+							<img src="./assets/book.png" alt="book icon" class="icon" />
+							<h3>Experience</h3>
+							<p>3 jaar+ hobbyist <br />voice actor en graphische designer</p>
+						</div>
+						<div class="details-container">
+							<img src="./assets/school hat.png" alt="school hat" class="icon" />
+							<h3>Education</h3>
+							<p>Campus de Brug vilvoorde<br />gediplomeerd</p>
+							<p>Erasmus Hoge School brussels<br />momenteel student</p>
+						</div>
+					</div>
+					<div class="text-container">
+						<p>
+							Als ervaren grafisch ontwerper in het Adobe-ecosysteem beheers ik de kunst van creatie met tools zoals Illustrator, Photoshop, Adobe Premiere en After Effects. Mijn passie ligt in het vormgeven van visuele verhalen en het brengen van
+							ideeën tot leven door middel van deze krachtige ontwerptoepassingen. Met een diepgaande kennis van het volledige Adobe-spectrum, ben ik toegewijd aan het leveren van hoogwaardige en visueel verbluffende ontwerpen.
+						</p>
+					</div>
+				</div>
+			</div>
+			<img src="./assets/black-arrow-down-icon-png-16.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+		</section>
+		<section id="experience">
+			<p class="section__text__p1">Explore My</p>
+			<h1 class="title">Experience</h1>
+			<div class="experience-details-container">
+				<div class="about-containers">
+					<div class="details-container">
+						<h2 class="experience-sub-title">Graphic designer</h2>
+						<div class="article-container">
+							<article>
+								<img src="./assets/adobe-Illustrator-logo-0-1.png" alt="illustrator" class="icon" />
+								<div>
+									<h3>Adobe illustrator</h3>
+									<p>4 jaar kennis</p>
+								</div>
+							</article>
+							<article>
+								<img src="./assets/adobe-photoshop-logo-0.png" alt="ph" class="icon" />
+								<div>
+									<h3>adobe photoshop</h3>
+									<p>3 jaar kennis</p>
+								</div>
+							</article>
+							<article>
+								<img src="./assets/adobe-premiere-pro-logo-4-11.png" alt="premiere" class="icon" />
+								<div>
+									<h3>premiere pro</h3>
+									<p>1 jaar</p>
+								</div>
+							</article>
+						</div>
+					</div>
+					<div class="details-container">
+						<h2 class="experience-sub-title">Hobbyist voice actor</h2>
+						<div class="article-container">
+							<article>
+								<img src="./assets/gaming.png" alt="controller" class="icon" />
+								<div>
+									<h3>gewerkt op Itch.io projects</h3>
+									<p>male stem </p>
+								</div>
+							</article>
+							<article>
+								<img src="./assets/microphone.png" alt="mic" class="icon" />
+								<div>
+									<h3>male vocalist for small projects</h3>
+									<p>Intermediate experience</p>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<img src="./assets/black-arrow-down-icon-png-16.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+		</section>
+		<section id="projects">
+			<p class="section__text__p1">Browse My Recent</p>
+			<h1 class="title">Projects</h1>
+			<div class="experience-details-container">
+				<div class="about-containers">
+					<div class="details-container color-container">
+						<div class="article-container">
+							<img src="./assets/project-1.png" alt="Project 1" class="project-img" />
+						</div>
+						<h2 class="experience-sub-title project-title">Project One</h2>
+						<div class="btn-container">
+							<button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+							<button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+						</div>
+					</div>
+					<div class="details-container color-container">
+						<div class="article-container">
+							<img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+						</div>
+						<h2 class="experience-sub-title project-title">Project Two</h2>
+						<div class="btn-container">
+							<button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+							<button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+						</div>
+					</div>
+					<div class="details-container color-container">
+						<div class="article-container">
+							<img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+						</div>
+						<h2 class="experience-sub-title project-title">Project Three</h2>
+						<div class="btn-container">
+							<button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+							<button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<img src="./assets/black-arrow-down-icon-png-16.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+		</section>
+		<section id="contact">
+			<p class="section__text__p1">Get in Touch</p>
+			<h1 class="title">Contact Me</h1>
+			<div class="contact-info-upper-container">
+				<div class="contact-info-container">
+					<img src="./assets/post.png" alt="Email icon" class="icon" />
+					<p><a href="mailto:aymanabid35@gmail.com">aymanabid35@gmail.com</a></p>
+				</div>
+				<div class="contact-info-container">
+					<img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+					<p><a href="https://www.linkedin.com">LinkedIn</a></p>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<nav>
+				<div class="nav-links-container">
+					<ul class="nav-links">
+						<li><a href="#about">About</a></li>
+						<li><a href="#experience">Experience</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+			<p>Copyright &#169; 2023 Erasmus Hoge School. All Rights Reserved.</p>
+		</footer>
 		<script src="script.js"></script>
 	</body>
 </html>
